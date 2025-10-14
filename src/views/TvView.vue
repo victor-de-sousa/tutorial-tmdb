@@ -95,7 +95,15 @@ hr {
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 0 0.5rem rgb(219, 219, 219);
+     transition: 0.7s;
+
 }
+
+.tv-card:hover {
+    scale: 1.03;
+    transition: 0.5s;
+}
+
 
 .tv-card img {
     width: 95%;
